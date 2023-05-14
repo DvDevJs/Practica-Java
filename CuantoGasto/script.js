@@ -14,7 +14,7 @@ button.addEventListener("click", ()=> {
       const lineaElement = document.querySelector("#select");
       lineaElement.id = "linea";
       bandera = 1;
-    })
+    });
 
     const valor = input.value;
     const motivoValor = motivo.value || 'No especificado';
